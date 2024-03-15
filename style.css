@@ -116,7 +116,6 @@ main .interface .flex{
 }
 
 .interface .mainimg img{
-    filter: drop-shadow(12px 21px 5px rgba(0, 0, 0, 0.082));
     position: relative;
     animation:flutuar 2s ease-in-out infinite alternate;
     
