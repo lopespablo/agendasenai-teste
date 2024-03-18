@@ -31,11 +31,18 @@ nav .inputcabeca{
     margin: auto;
 }
 
+nav .inputcabeca input{
+    height: 25px;
+    border-radius: 8px;
+    border: none;
+}
+
 ::placeholder {
     color: rgba(88, 88, 88, 0.568); /* Define a cor do texto do placeholder */
     font-style: italic; /* Define o estilo da fonte do placeholder */
     font-size: 13px; /* Define o tamanho da fonte do placeholder */
     /* Outros estilos que você desejar adicionar */
+    padding: 5px;
 }
 
 @media screen and (max-width:555px){
