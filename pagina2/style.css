@@ -30,3 +30,16 @@ nav .navegacao{
 nav .inputcabeca{
     margin: auto;
 }
+
+::placeholder {
+    color: rgba(88, 88, 88, 0.568); /* Define a cor do texto do placeholder */
+    font-style: italic; /* Define o estilo da fonte do placeholder */
+    font-size: 13px; /* Define o tamanho da fonte do placeholder */
+    /* Outros estilos que você desejar adicionar */
+}
+
+@media screen and (max-width:555px){
+    nav .navegacao{
+        flex-direction: column;
+    }
+}
