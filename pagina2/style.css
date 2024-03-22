@@ -75,7 +75,7 @@ nav .inputcabeca input:focus{
 
 .empresas .empresa1, .empresa2, .empresa3{
     border: 1px solid #FFBF09;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.486);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.39);
     height: 200px;
     width: 200px;
     margin-top: 30px;
