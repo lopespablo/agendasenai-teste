@@ -60,6 +60,7 @@ nav .inputcabeca input:focus{
     text-align: center;
     padding-top: 30px;
     font-size: 17px;
+    color : #F89F23;
 }
 
 .conteudo .flex{
@@ -73,10 +74,12 @@ nav .inputcabeca input:focus{
 }
 
 .empresas .empresa1, .empresa2, .empresa3{
-    border: 1px solid black;
+    border: 1px solid #FFBF09;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.486);
     height: 200px;
     width: 200px;
     margin-top: 30px;
+    border-radius: 10px;
     transition: .2s;
 }
 
