@@ -12,7 +12,7 @@ body{
 
 header{
     background-image: linear-gradient(90deg, #F27141, #F27C38, #F28729, #F89F23,#FFBF09);;
-    height: 100px;
+    height: 120px;
 }
 
 nav{
@@ -24,6 +24,7 @@ nav .navegacao{
     display: flex;
     align-items: center;
     padding: 20px 4%;
+    gap: 10px;
     
 }
 
@@ -54,6 +55,14 @@ nav .inputcabeca input:focus{
     font-size: 13px; /* Define o tamanho da fonte do placeholder */
     /* Outros estilos que você desejar adicionar */
     padding: 5px;
+}
+
+.navegacao .btnpg2 button{
+    height: 25px;
+    width: 90px;
+    border-radius: 5px;
+    background-image: linear-gradient(-45deg, #F27141, #F27C38, #F28729, #F89F23,#FFBF09);
+    border: 1px solid #FFBF09;
 }
 
 .conteudo p{
