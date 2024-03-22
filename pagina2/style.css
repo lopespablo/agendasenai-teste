@@ -56,6 +56,54 @@ nav .inputcabeca input:focus{
     padding: 5px;
 }
 
+.conteudo p{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 17px;
+}
+
+.conteudo .flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.empresas {
+    margin-bottom: 20px;
+}
+
+.empresas .empresa1, .empresa2, .empresa3{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+    transition: .2s;
+}
+
+.empresas .empresa1:hover, .empresa2:hover, .empresa3:hover{
+    transform: scale(1.03);
+}
+
+.empresas .empresa1{
+    background: url(imagens2/WhatsApp\ Image\ 2024-03-22\ at\ 19.08.20.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.empresas .empresa2{
+    background: url(imagens2/WhatsApp\ Image\ 2024-03-22\ at\ 19.08.20\ \(1\).jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.empresas .empresa3{
+    background: url(imagens2/WhatsApp\ Image\ 2024-03-22\ at\ 19.08.21.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
 @media screen and (max-width:555px){
     nav .navegacao{
         flex-direction: column;
