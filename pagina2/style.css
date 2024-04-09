@@ -83,37 +83,22 @@ nav .inputcabeca input:focus{
     margin-bottom: 20px;
 }
 
-.empresas .empresa1, .empresa2, .empresa3{
-    border: 1px solid #FFBF09;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.39);
-    height: 200px;
-    width: 200px;
-    margin-top: 30px;
-    border-radius: 10px;
-    transition: .2s;
+.empresas p{
+    font-weight: 800;
 }
+
+.empresas img{ 
+    border:1px solid #F27141;
+    border-radius: 10px;
+}
+    
 
 .empresas .empresa1:hover, .empresa2:hover, .empresa3:hover{
     transform: scale(1.03);
 }
 
-.empresas .empresa1{
-    background: url(imagens2/WhatsApp\ Image\ 2024-03-22\ at\ 19.08.20.jpeg);
-    background-position: center;
-    background-size: cover;
-}
 
-.empresas .empresa2{
-    background: url(imagens2/WhatsApp\ Image\ 2024-03-22\ at\ 19.08.20\ \(1\).jpeg);
-    background-position: center;
-    background-size: cover;
-}
 
-.empresas .empresa3{
-    background: url(imagens2/WhatsApp\ Image\ 2024-03-22\ at\ 19.08.21.jpeg);
-    background-position: center;
-    background-size: cover;
-}
 
 
 
