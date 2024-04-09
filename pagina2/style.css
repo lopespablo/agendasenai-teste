@@ -13,6 +13,7 @@ body{
 header{
     background-image: linear-gradient(90deg, #F27141, #F27C38, #F28729, #F89F23,#FFBF09);;
     height: 120px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.274);
 }
 
 nav{
@@ -71,6 +72,7 @@ nav .inputcabeca input:focus{
     padding-top: 30px;
     font-size: 17px;
     color : #F89F23;
+    font-weight: 700;
 }
 
 .conteudo .flex{
@@ -81,21 +83,30 @@ nav .inputcabeca input:focus{
 
 .empresas {
     margin-bottom: 20px;
+    list-style: none;
+}
+
+.empresas li{
+    list-style: none;
+    cursor: pointer;
+    transition: .2s;
 }
 
 .empresas p{
     font-weight: 800;
+    padding-bottom: 5px;
 }
 
 .empresas img{ 
     border:1px solid #F27141;
     border-radius: 10px;
+    transition: .2s;
 }
-    
 
-.empresas .empresa1:hover, .empresa2:hover, .empresa3:hover{
+.empresas li img:hover{
     transform: scale(1.03);
 }
+    
 
 
 
