@@ -14,27 +14,49 @@ header{
     background-image: linear-gradient(90deg, #F27141, #F27C38, #F28729, #F89F23,#FFBF09);;
     height: 120px;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.274);
+    margin: 0;
 }
 
 nav{
     color: white;
+    height: 100%;
 }
 
 nav .navegacao{
-    height: 100px;
+    height: 100%;
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    padding: 20px 4%;
-    gap: 10px;
-    
 }
 
 nav .navegacao p{
     font-weight: 700;
+    font-size: 18px;
+    
 }
 
-nav .inputcabeca{
-    margin: auto;
+nav .navegacao ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+nav .navegacao ul li{
+    list-style: none;
+}
+
+nav .navegacao ul input{
+    border-radius: 10px;
+    height: 40px;
+    width: 400px;
+    border: 1px solid #F27141;
+    background-color: rgba(255, 255, 255, 0.37);
+}
+
+nav .navegacao ul li img{
+    height: 30px;
+    color: white;
 }
 
 nav .inputcabeca input{
@@ -42,7 +64,6 @@ nav .inputcabeca input{
     border-radius: 8px;
     border: 1px solid #FFBF09;
     text-align: center;
-    
 }
 
 nav .inputcabeca input:focus{
@@ -116,5 +137,21 @@ nav .inputcabeca input:focus{
 @media screen and (max-width:555px){
     nav .navegacao{
         flex-direction: column;
+    }
+
+    nav .navegacao p{
+        padding-top: 20px;
+        margin: 0;
+    }
+
+    nav .navegacao ul input{
+        width: 270px;
+        height: 35px;
+        
+    }
+
+    nav .navegacao ul{
+        gap: 25px;
+        padding: 10px;
     }
 }
